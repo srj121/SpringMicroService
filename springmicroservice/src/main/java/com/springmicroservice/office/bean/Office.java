@@ -1,5 +1,6 @@
 package com.springmicroservice.office.bean;
 
+
 public class Office {
 	private String email;
 	private int workDays;
@@ -35,7 +36,5 @@ public class Office {
 	}
 	public void setSalary(int salary) {
 		this.salary = salary;
-	}
-	
-	
+	}	
 }
